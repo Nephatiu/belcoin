@@ -663,7 +663,7 @@
     <None Include="C:\MyProjects\Novacoin\src\qt\locale\bitcoin_ru.ts">
       <Filter>Translation Files</Filter>
     </None>
-    <None Include="..\..\src\qt\res\icons\bitcoin.icns">
+    <None Include="..\..\src\qt\res\icons\belcoin.icns">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
@@ -861,7 +861,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\src\qt\res\icons\bitcoin_testnet.png">
+    <Image Include="..\..\src\qt\res\icons\belcoin_testnet.png">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="..\..\src\qt\res\icons\notsynced.png">
