@@ -1,5 +1,6 @@
 
 BelCoin official development tree
+
 BelCoin - a hybrid scrypt PoW + PoS based cryptocurrency.
 
 * 10 minutes stake spacing
@@ -24,7 +25,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of NovaCoin.
+official, stable release versions of BelCoin.
 
 Feature branches are created when there are major new features being
 worked on by several people.
