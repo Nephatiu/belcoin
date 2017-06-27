@@ -32,14 +32,14 @@ from socket import error as socket_error
 def confFile():
     folder = ''
     if platform.system() == 'Windows':
-        folder = os.path.join(os.path.join(os.environ['APPDATA'], 'NovaCoin'))
+        folder = os.path.join(os.path.join(os.environ['APPDATA'], 'BelCoin'))
     else:
         if platform.system() == 'Darwin':
-            folder = os.path.expanduser('~/Library/Application Support/NovaCoin/')
+            folder = os.path.expanduser('~/Library/Application Support/BelCoin/')
         else:
-            folder = os.path.expanduser('~/.novacoin')
+            folder = os.path.expanduser('~/.belcoin')
 
-    return os.path.join(folder, 'novacoin.conf')
+    return os.path.join(folder, 'belcoin.conf')
 
 conf_path = confFile()
 if not os.path.exists(conf_path):

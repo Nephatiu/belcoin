@@ -2339,7 +2339,7 @@ bool CWallet::CreateCoinStake(uint256 &hashTx, uint32_t nOut, uint32_t nGenerati
 
         // Iterate through set of (wtx*, nout) in order to find some additional inputs for our new coinstake transaction.
         //
-        // * Value is higher than 0.01 NVC;
+        // * Value is higher than 0.01 BEL;
         // * Only add inputs of the same key/address as kernel;
         // * Input hash and kernel parent hash should be different.
         for(CoinsSet::iterator pcoin = setCoins.begin(); pcoin != setCoins.end(); pcoin++)

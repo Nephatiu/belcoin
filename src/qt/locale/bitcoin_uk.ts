@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About NovaCoin</source>
+        <source>About BelCoin</source>
         <translation>Про Novacoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="56"/>
-        <source>&lt;b&gt;NovaCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;NovaCoin&lt;/b&gt; версії</translation>
+        <source>&lt;b&gt;BelCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;BelCoin&lt;/b&gt; версії</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -20,12 +20,12 @@
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2016 The NovaCoin developers</source>
+Copyright © 2012-2016 The BelCoin developers</source>
         <translation>© 2009-2016 Розробники Bitcoin
 © 2011-2012 Розробники PPCoin
 © 2014 Розробники Peerunity
 © 2014 Розробники EmerCoin
-© 2012-2016 Розробники NovaCoin</translation>
+© 2012-2016 Розробники BelCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
@@ -42,7 +42,7 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your NovaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your BelCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Це ваші адреси для отримання платежів. Ви можете давати різні адреси різним людям, таким чином маючи можливість відслідкувати хто конкретно і скільки вам заплатив.</translation>
     </message>
     <message>
@@ -77,7 +77,7 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own a NovaCoin address</source>
+        <source>Sign a message to prove you own a BelCoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -87,8 +87,8 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified NovaCoin address</source>
-        <translation>Перевірити повідомлення, щоб переконатися, що воно було підписане вказаним адресою NovaCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified BelCoin address</source>
+        <translation>Перевірити повідомлення, щоб переконатися, що воно було підписане вказаним адресою BelCoin</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="119"/>
@@ -240,7 +240,7 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <source>NovaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>BelCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Новакоін-клієнт буде закрито для завершення процесу шифрування. Пам’ятайте, що шифрування гаманця не може повністю захистити ваші новакоіни від кражі, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -293,8 +293,8 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
-        <source>NovaCoin will close now to finish the decryption process. </source>
-        <translation>Зараз NovaCoin клієнт буде закрито щоб завершити процес розшифровки.</translation>
+        <source>BelCoin will close now to finish the decryption process. </source>
+        <translation>Зараз BelCoin клієнт буде закрито щоб завершити процес розшифровки.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="189"/>
@@ -312,14 +312,14 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="146"/>
-        <source>A fatal error occurred. NovaCoin can no longer continue safely and will quit.</source>
-        <translation>Сталася фатальна помилка. Програма зараз закриється, оскільки NovaCoin не може продовжувати роботу безпечно.</translation>
+        <source>A fatal error occurred. BelCoin can no longer continue safely and will quit.</source>
+        <translation>Сталася фатальна помилка. Програма зараз закриється, оскільки BelCoin не може продовжувати роботу безпечно.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
         <location filename="../bitcoingui.cpp" line="736"/>
-        <source>NovaCoin</source>
-        <translation>NovaCoin</translation>
+        <source>BelCoin</source>
+        <translation>BelCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
@@ -343,7 +343,7 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
-        <source>Send coins to a NovaCoin address</source>
+        <source>Send coins to a BelCoin address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
@@ -408,13 +408,13 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>&amp;About NovaCoin</source>
-        <translation>П&amp;ро NovaCoin</translation>
+        <source>&amp;About BelCoin</source>
+        <translation>П&amp;ро BelCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
-        <source>Show information about NovaCoin</source>
-        <translation>Показати інформацію про NovaCoin</translation>
+        <source>Show information about BelCoin</source>
+        <translation>Показати інформацію про BelCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -434,8 +434,8 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="314"/>
-        <source>Modify configuration options for NovaCoin</source>
-        <translation>Редагувати параметри NovaCoin</translation>
+        <source>Modify configuration options for BelCoin</source>
+        <translation>Редагувати параметри BelCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="316"/>
@@ -611,16 +611,16 @@ Copyright © 2012-2016 The NovaCoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="445"/>
         <location filename="../bitcoingui.cpp" line="513"/>
-        <source>NovaCoin client</source>
-        <translation>NovaCoin клієнт</translation>
+        <source>BelCoin client</source>
+        <translation>BelCoin клієнт</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="586"/>
-        <source>%n active connection(s) to NovaCoin network</source>
+        <source>%n active connection(s) to BelCoin network</source>
         <translation>
-            <numerusform>%n активне з&apos;єднання з мережею NovaCoin</numerusform>
-            <numerusform>%n активних з&apos;єднань з мережею NovaCoin</numerusform>
-            <numerusform>%n активних з&apos;єднань з мережею NovaCoin</numerusform>
+            <numerusform>%n активне з&apos;єднання з мережею BelCoin</numerusform>
+            <numerusform>%n активних з&apos;єднань з мережею BelCoin</numerusform>
+            <numerusform>%n активних з&apos;єднань з мережею BelCoin</numerusform>
         </translation>
     </message>
     <message>
@@ -794,8 +794,8 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="982"/>
         <location filename="../bitcoingui.cpp" line="997"/>
-        <source>URI can not be parsed! This can be caused by an invalid NovaCoin address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною NovaCoin-адресою, чи невірними параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid BelCoin address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною BelCoin-адресою, чи невірними параметрами URI.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
@@ -933,8 +933,8 @@ Some or all keys from:
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>0.00 NVC</source>
-        <translation type="obsolete">0.00 NVC</translation>
+        <source>0.00 BEL</source>
+        <translation type="obsolete">0.00 BEL</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -1237,8 +1237,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
-        <source>The entered address &quot;%1&quot; is not a valid NovaCoin address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі NovaCoin</translation>
+        <source>The entered address &quot;%1&quot; is not a valid BelCoin address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі BelCoin</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
@@ -1289,8 +1289,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="476"/>
         <location filename="../guiutil.cpp" line="488"/>
-        <source>NovaCoin-Qt</source>
-        <translation>NovaCoin-Qt</translation>
+        <source>BelCoin-Qt</source>
+        <translation>BelCoin-Qt</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="476"/>
@@ -1337,17 +1337,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to novacoin-qt.</source>
+        <source>Welcome to belcoin-qt.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where novacoin-qt will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where belcoin-qt will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>novacoin-qt will download and store a copy of the Novacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>belcoin-qt will download and store a copy of the Novacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1794,8 +1794,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="obsolete">123.456</translation>
     </message>
     <message>
-        <source>NVC</source>
-        <translation type="obsolete">NVC</translation>
+        <source>BEL</source>
+        <translation type="obsolete">BEL</translation>
     </message>
     <message>
         <location filename="../forms/multisigdialog.ui" line="413"/>
@@ -1904,13 +1904,13 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="522"/>
-        <source>The fee of the transaction (%1 NVC) is smaller than the expected fee (%2 NVC). Do you want to send the transaction anyway?</source>
-        <translation>Комісія за транзакцію (%1 NVC) менше, ніж очікувана комісія (%2 NVC). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
+        <source>The fee of the transaction (%1 BEL) is smaller than the expected fee (%2 BEL). Do you want to send the transaction anyway?</source>
+        <translation>Комісія за транзакцію (%1 BEL) менше, ніж очікувана комісія (%2 BEL). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="528"/>
-        <source>The fee of the transaction (%1 NVC) is bigger than the expected fee (%2 NVC). Do you want to send the transaction anyway?</source>
-        <translation>Комісія за транзакцію (%1 NVC) більша, ніж очікувана комісія (%2 NVC). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
+        <source>The fee of the transaction (%1 BEL) is bigger than the expected fee (%2 BEL). Do you want to send the transaction anyway?</source>
+        <translation>Комісія за транзакцію (%1 BEL) більша, ніж очікувана комісія (%2 BEL). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
     </message>
 </context>
 <context>
@@ -1985,12 +1985,12 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="86"/>
-        <source>Automatically start NovaCoin after logging in to the system.</source>
+        <source>Automatically start BelCoin after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="89"/>
-        <source>&amp;Start NovaCoin on system login</source>
+        <source>&amp;Start BelCoin on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -2010,7 +2010,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="126"/>
-        <source>Connect to the NovaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the BelCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Підключення до мережі через SOCKS5 проксі (напр. при підключенні через Tor).</translation>
     </message>
     <message>
@@ -2120,8 +2120,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="425"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting NovaCoin.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску NovaCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BelCoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску BelCoin.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="436"/>
@@ -2135,8 +2135,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="458"/>
-        <source>Whether to show NovaCoin addresses in the transaction list or not.</source>
-        <translation>Відображати адреси NovaCoin у списку транзакцій чи ні.</translation>
+        <source>Whether to show BelCoin addresses in the transaction list or not.</source>
+        <translation>Відображати адреси BelCoin у списку транзакцій чи ні.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="461"/>
@@ -2197,8 +2197,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../optionsdialog.cpp" line="251"/>
         <location filename="../optionsdialog.cpp" line="260"/>
         <location filename="../optionsdialog.cpp" line="269"/>
-        <source>This setting will take effect after restarting NovaCoin.</source>
-        <translation>Цей параметр набуде чинності після перезавантаження NovaCoin.</translation>
+        <source>This setting will take effect after restarting BelCoin.</source>
+        <translation>Цей параметр набуде чинності після перезавантаження BelCoin.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="299"/>
@@ -2231,8 +2231,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="46"/>
         <location filename="../forms/overviewpage.ui" line="365"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NovaCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Інформація, що відображається може бути застарілою. Ваш гаманець автоматично синхронізується з мережею NovaCoin після встановлення з&apos;єднання, але цей процес ще не завершений.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BelCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Інформація, що відображається може бути застарілою. Ваш гаманець автоматично синхронізується з мережею BelCoin після встановлення з&apos;єднання, але цей процес ще не завершений.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="225"/>
@@ -2332,18 +2332,18 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="48"/>
-        <source>NovaCoins</source>
-        <translation>NovaCoins</translation>
+        <source>BelCoins</source>
+        <translation>BelCoins</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="49"/>
-        <source>Milli-NovaCoins (1 / 1,000)</source>
-        <translation>Milli-NovaCoins (1 / 1,000)</translation>
+        <source>Milli-BelCoins (1 / 1,000)</source>
+        <translation>Milli-BelCoins (1 / 1,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="50"/>
-        <source>Micro-NovaCoins (1 / 1,000,000)</source>
-        <translation>Micro-NovaCoins (1 / 1,000,000)</translation>
+        <source>Micro-BelCoins (1 / 1,000,000)</source>
+        <translation>Micro-BelCoins (1 / 1,000,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="185"/>
@@ -2443,8 +2443,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>NovaCoin - Debug window</source>
-        <translation>NovaCoin - Вікно відладки</translation>
+        <source>BelCoin - Debug window</source>
+        <translation>BelCoin - Вікно відладки</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -2483,8 +2483,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
-        <source>Open the NovaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрийте файл журналу відладки NovaCoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the BelCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте файл журналу відладки BelCoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="98"/>
@@ -2498,7 +2498,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="147"/>
-        <source>Show the NovaCoin-Qt help message to get a list with possible NovaCoin command-line options.</source>
+        <source>Show the BelCoin-Qt help message to get a list with possible BelCoin command-line options.</source>
         <translation>Показати довідку Novacoin-Qt для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message>
@@ -2563,8 +2563,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="383"/>
-        <source>NovaCoin Core</source>
-        <translation>Ядро NovaCoin</translation>
+        <source>BelCoin Core</source>
+        <translation>Ядро BelCoin</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="406"/>
@@ -2573,8 +2573,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="426"/>
-        <source>Open the NovaCoin configuration file from the current data directory.</source>
-        <translation>Відкрийте файл конфігурації NovaCoin з поточного каталогу даних.</translation>
+        <source>Open the BelCoin configuration file from the current data directory.</source>
+        <translation>Відкрийте файл конфігурації BelCoin з поточного каталогу даних.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="429"/>
@@ -2618,8 +2618,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
-        <source>Welcome to the NovaCoin RPC console.</source>
-        <translation>Вітаємо у консолі NovaCoin RPC.</translation>
+        <source>Welcome to the BelCoin RPC console.</source>
+        <translation>Вітаємо у консолі BelCoin RPC.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
@@ -2723,7 +2723,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this NovaCoin address</source>
+        <source>Sign the message to prove you own this BelCoin address</source>
         <translation type="obsolete">Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2743,8 +2743,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="29"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation type="unfinished">Введіть адресу NovaCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a BelCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation type="unfinished">Введіть адресу BelCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="30"/>
@@ -2847,8 +2847,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>0.00 NVC</source>
-        <translation type="obsolete">0.00 NVC</translation>
+        <source>0.00 BEL</source>
+        <translation type="obsolete">0.00 BEL</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -2936,8 +2936,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation>Баланс:</translation>
     </message>
     <message>
-        <source>123.456 NVC</source>
-        <translation type="obsolete">123.456 NVC</translation>
+        <source>123.456 BEL</source>
+        <translation type="obsolete">123.456 BEL</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="772"/>
@@ -2951,8 +2951,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="43"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введіть адресу NovaCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a BelCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введіть адресу BelCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
@@ -3111,8 +3111,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введіть адресу NovaCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a BelCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введіть адресу BelCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
 </context>
 <context>
@@ -3172,7 +3172,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
-        <source>Sign the message to prove you own this NovaCoin address</source>
+        <source>Sign the message to prove you own this BelCoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -3204,8 +3204,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
-        <source>Verify the message to ensure it was signed with the specified NovaCoin address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною NovaCoin-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified BelCoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною BelCoin-адресою</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
@@ -3215,8 +3215,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a NovaCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введіть адресу NovaCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a BelCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введіть адресу BelCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
@@ -3225,8 +3225,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="33"/>
-        <source>Enter NovaCoin signature</source>
-        <translation>Введіть підпис NovaCoin</translation>
+        <source>Enter BelCoin signature</source>
+        <translation>Введіть підпис BelCoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -3816,7 +3816,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=novacoinrpc
+rpcuser=belcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -3824,7 +3824,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=novacoinrpc
+rpcuser=belcoinrpc
 rpcpassword=%s
 (ви не повинні пам&apos;ятати цей пароль)
 Ім’я користувача та пароль ПОВИННІ бути різними.
@@ -3849,8 +3849,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Cannot obtain a lock on data directory %s.  NovaCoin is probably already running.</source>
-        <translation>Не вдалося встановити блокування на каталог даних %s. NovaCoin, ймовірно, вже запущений.</translation>
+        <source>Cannot obtain a lock on data directory %s.  BelCoin is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. BelCoin, ймовірно, вже запущений.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
@@ -3899,8 +3899,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
-        <source>Unable to bind to %s on this computer. NovaCoin is probably already running.</source>
-        <translation>Неможливо прив&apos;язатися до %s на цьому комп&apos;ютері. Можливо, NovaCoin вже запущено.</translation>
+        <source>Unable to bind to %s on this computer. BelCoin is probably already running.</source>
+        <translation>Неможливо прив&apos;язатися до %s на цьому комп&apos;ютері. Можливо, BelCoin вже запущено.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
@@ -3909,8 +3909,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NovaCoin will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&amp;apos;ютері. Якщо ваш годинник йде неправильно, NovaCoin може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BelCoin will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&amp;apos;ютері. Якщо ваш годинник йде неправильно, BelCoin може працювати некоректно.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
@@ -4040,8 +4040,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of NovaCoin</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії NovaCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BelCoin</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії BelCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -4187,13 +4187,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>NovaCoin version</source>
-        <translation>NovaCoin версії</translation>
+        <source>BelCoin version</source>
+        <translation>BelCoin версії</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>NovaCoin</source>
-        <translation>NovaCoin</translation>
+        <source>BelCoin</source>
+        <translation>BelCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
@@ -4256,7 +4256,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Send command to -server or novacoind</source>
+        <source>Send command to -server or belcoind</source>
         <translation>Відправити команду серверу -server чи демону
 </translation>
     </message>
@@ -4326,8 +4326,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="150"/>
-        <source>Specify configuration file (default: novacoin.conf)</source>
-        <translation>Вкажіть файл конфігурації (за промовчуванням: novacoin.conf)
+        <source>Specify configuration file (default: belcoin.conf)</source>
+        <translation>Вкажіть файл конфігурації (за промовчуванням: belcoin.conf)
 </translation>
     </message>
     <message>
@@ -4343,8 +4343,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
-        <source>Specify pid file (default: novacoind.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: novacoind.pid)
+        <source>Specify pid file (default: belcoind.pid)</source>
+        <translation>Вкажіть pid-файл (за промовчуванням: belcoind.pid)
 </translation>
     </message>
     <message>
@@ -4430,8 +4430,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="169"/>
-        <source>Wallet needed to be rewritten: restart NovaCoin to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть NovaCoin для завершення</translation>
+        <source>Wallet needed to be rewritten: restart BelCoin to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть BelCoin для завершення</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="170"/>

@@ -111,8 +111,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // NovaCoin: check prefix
-    if(uri.scheme() != QString("novacoin"))
+    // BelCoin: check prefix
+    if(uri.scheme() != QString("belcoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -162,13 +162,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert novacoin:// to novacoin:
+    // Convert belcoin:// to belcoin:
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("novacoin://"))
+    if(uri.startsWith("belcoin://"))
     {
-        uri.replace(0, 10, "novacoin:");
+        uri.replace(0, 10, "belcoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -297,7 +297,7 @@ void openConfigfile()
 {
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open novacoin.conf with the associated application */
+    /* Open belcoin.conf with the associated application */
     if (boost::filesystem::exists(pathConfig))
         QDesktopServices::openUrl(QUrl::fromLocalFile(QString::fromStdString(pathConfig.string())));
 }
@@ -329,7 +329,7 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "NovaCoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "BelCoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -411,7 +411,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "novacoin.desktop";
+    return GetAutostartDir() / "belcoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -452,7 +452,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=NovaCoin\n";
+        optionFile << "Name=BelCoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -473,10 +473,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("NovaCoin-Qt") + " " + tr("version") + " " +
+    header = tr("BelCoin-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  novacoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  belcoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -485,14 +485,14 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("NovaCoin-Qt"));
+    setWindowTitle(tr("BelCoin-Qt"));
     setFont(bitcoinAddressFont());
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));
     setDetailedText(coreOptions + "\n" + uiOptions);
-    addButton("OK", QMessageBox::RejectRole);   //кнопка OK будет справа от кнопки "Скрыть подробности"
-    //addButton("OK", QMessageBox::NoRole);     //кнопка OK будет слева от кнопки "Скрыть подробности"
+    addButton("OK", QMessageBox::RejectRole);   //???????????? OK ?????????? ???????????? ???? ???????????? "???????????? ??????????????????????"
+    //addButton("OK", QMessageBox::NoRole);     //???????????? OK ?????????? ?????????? ???? ???????????? "???????????? ??????????????????????"
     setMouseTracking(true);
     setSizeGripEnabled(true);   
 }
