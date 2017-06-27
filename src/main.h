@@ -44,7 +44,7 @@ static const int64_t MIN_TX_FEE = CENT/10;
 static const int64_t MIN_RELAY_TX_FEE = CENT/50;
 
 static const int64_t MAX_MONEY = std::numeric_limits<int64_t>::max();
-static const int64_t MAX_MINT_PROOF_OF_WORK = 100 * COIN;
+static const int64_t MAX_MINT_PROOF_OF_WORK = 5 * COIN;
 static const int64_t MAX_MINT_PROOF_OF_STAKE = 1 * COIN;
 static const int64_t MIN_TXOUT_AMOUNT = CENT/100;
 
@@ -602,7 +602,7 @@ public:
     {
         // Large (in bytes) low-priority (new, small-coin) transactions
         // need a fee.
-        return dPriority > COIN * 144 / 250;
+        return dPriority > COIN * 92 / 250;
     }
 
     int64_t GetMinFee(unsigned int nBlockSize=1, bool fAllowFree=false, enum GetMinFee_mode mode=GMF_BLOCK, unsigned int nBytes = 0) const;

@@ -1039,7 +1039,7 @@ int64_t GetProofOfWorkReward(unsigned int nBits, int64_t nFees)
             bnLowerBound = bnMidValue;
     }
 
-    int64_t nSubsidy = bnUpperBound.getuint64();
+    int64_t nSubsidy = 2 * COIN;
 
     nSubsidy = (nSubsidy / CENT) * CENT;
     if (fDebug && GetBoolArg("-printcreation"))
